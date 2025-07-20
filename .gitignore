@@ -1,0 +1,116 @@
+
+# ============ SENSITIVE DATA ============
+# Never commit actual sensitive log files in real projects
+# (For this educational project, web_requests.log is included)
+
+
+# ============ TEMPORARY FILES ============
+# Backup files created by text editors
+*~
+*.bak
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# ============ SYSTEM FILES ============
+# Linux
+.directory
+*.swp
+*.swo
+
+# Windows
+desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============ EDITOR FILES ============
+# Vim
+*.swp
+*.swo
+*~
+
+# Nano backup files
+*.save
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============ DEVELOPMENT FILES ============
+# Python (if you add any Python scripts later)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+
+# Node.js (if you add any web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============ DOCUMENTATION DRAFTS ============
+# Draft versions of reports
+*_draft.*
+*_backup.*
+draft_*
+backup_*
+
+# ============ LARGE FILES ============
+# Compressed archives (unless specifically needed)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Project-specific ignores
+api_time_user.txt
+
+# Project-specific ignores api_time_user.txt
+# ============ PERSONAL NOTES ============
+
+personal_notes.md
+notes.txt
+todo_personal.md
+
+# ============ SCREENSHOTS WORKING FILES ============
+# Raw screenshot files before processing
+raw_screenshots/
+*.xcf
+*.psd
+
+# ============ SECURITY TOOLS OUTPUT ============
+# Output from security scanning tools
+scan_results/
+vulnerability_reports/
+*.nessus
+*.xml
+
+# ============ CREDENTIALS & CONFIG ============
+# Never commit credentials or sensitive config
+.env
+.env.local
+.env.production
+config.ini
+secrets.txt
+passwords.txt
+api_keys.txt
+
+# ============ BUILD ARTIFACTS ============
+# Generated files
+dist/
+build/
+*.pdf.bak
