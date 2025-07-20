@@ -57,7 +57,7 @@ The analysis was conducted using a systematic approach, leveraging powerful comm
 
 ```bash
 git clone  https://github.com/smokemoha/-Cybersecurity-Log-Analysis
-### Building the Project
+
 ```
 
 ## How to View the Report
