@@ -1,0 +1,18 @@
+# Cybersecurity Log Analysis Report
+## Web Activity Log Investigation
+
+**Date:** July 20, 2025
+**Analyst:** Mohammed sadisu
+**File Analyzed:** web_requests.log
+**Analysis Period:** June 25-29, 2021
+
+---
+
+## Executive Summary
+
+This report presents the findings of a comprehensive analysis of web activity logs (web_requests.log) conducted to identify suspicious activities and potential security threats. The analysis revealed one primary concern: an automated process associated with user ID `mdB7yD2dp1BFZPontHBQ1Z` from IP address `192.168.0.101` that experienced prolonged authentication failures due to session expiration, resulting in 64 consecutive unauthorized access attempts over a 16-hour period.
+
+**Key Finding:** Session management vulnerability affecting automated processes
+**Risk Level:** Medium
+**Immediate Action Required:** Review automated process authentication mechanisms
+
